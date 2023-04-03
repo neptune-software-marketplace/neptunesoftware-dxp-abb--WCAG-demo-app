@@ -5,9 +5,9 @@
 	"git": {
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb--WCAG-demo-app"
 	},
-	"name": "neptunesoftware-dxp-abb--WCAG-demo-app",
+	"name": "neptunesoftware-dxp-abb-WCAG-demo-app",
 	"description": "WCAG Compliance",
-	"ver": "23.4.3.1025",
+	"ver": "23.4.3.1546",
 	"enableCICD": true,
 	"apps": [
 		{

@@ -164,6 +164,13 @@
 																	"value": "Table Status - Object Marker",
 																	"script": "",
 																	"translation": []
+																},
+																{
+																	"attribute": "ariaLabelledBy",
+																	"grouping": "Properties",
+																	"value": "PanelTable1",
+																	"script": "",
+																	"translation": []
 																}
 															],
 															"data": [
@@ -275,7 +282,15 @@
 																	"customComponent": false,
 																	"request": [],
 																	"response": [],
-																	"attributes": [],
+																	"attributes": [
+																		{
+																			"attribute": "ariaLabelledBy",
+																			"grouping": "Properties",
+																			"value": "Table",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
 																	"data": [
 																		{
 																			"fieldNo": "66da7971-2b44-4f52-fd03-fb01f73a5347",
@@ -315,9 +330,16 @@
 																					"translation": []
 																				},
 																				{
-																					"attribute": "additionalInfo",
+																					"attribute": "ariaDescribedBy",
 																					"grouping": "Properties",
-																					"value": "{type}",
+																					"value": "colStatus",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaLabelledBy",
+																					"grouping": "Properties",
+																					"value": "colStatus",
 																					"script": "",
 																					"translation": []
 																				}
@@ -338,6 +360,20 @@
 																					"attribute": "type",
 																					"grouping": "Properties",
 																					"value": "{type}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaDescribedBy",
+																					"grouping": "Properties",
+																					"value": "colActStatus",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaLabelledBy",
+																					"grouping": "Properties",
+																					"value": "colActStatus",
 																					"script": "",
 																					"translation": []
 																				}
@@ -399,7 +435,7 @@
 																{
 																	"attribute": "ariaLabelledBy",
 																	"grouping": "Properties",
-																	"value": "IconTabFilterTable",
+																	"value": "PanelTable2",
 																	"script": "",
 																	"translation": []
 																}
@@ -513,7 +549,15 @@
 																	"customComponent": false,
 																	"request": [],
 																	"response": [],
-																	"attributes": [],
+																	"attributes": [
+																		{
+																			"attribute": "ariaLabelledBy",
+																			"grouping": "Properties",
+																			"value": "Table2",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
 																	"data": [
 																		{
 																			"fieldNo": "95a33626-4975-4495-8895-44ff60f990e9",
@@ -558,6 +602,13 @@
 																					"value": "{state}",
 																					"script": "",
 																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaDescribedBy",
+																					"grouping": "Properties",
+																					"value": "ColumnListItem",
+																					"script": "",
+																					"translation": []
 																				}
 																			],
 																			"data": []
@@ -583,6 +634,20 @@
 																					"attribute": "number",
 																					"grouping": "Properties",
 																					"value": "{weight}",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaDescribedBy",
+																					"grouping": "Properties",
+																					"value": "ColumnListItem",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
+																					"attribute": "ariaLabelledBy",
+																					"grouping": "Properties",
+																					"value": "ColumnListItem",
 																					"script": "",
 																					"translation": []
 																				}
@@ -1361,7 +1426,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "ActionListItem",
+																			"value": "ListMixListItems",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1423,7 +1488,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "DisplayListItem",
+																			"value": "ListMixListItems",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1499,7 +1564,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "FeedListItem",
+																			"value": "ListMixListItems",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1547,7 +1612,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "GroupHeaderListItem",
+																			"value": "ListMixListItems",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1595,7 +1660,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "InputListItem",
+																			"value": "ListMixListItems",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1692,7 +1757,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title",
+																			"value": "GridList",
 																			"script": "",
 																			"translation": []
 																		}
@@ -1821,6 +1886,13 @@
 																							"value": "Item Description",
 																							"script": "",
 																							"translation": []
+																						},
+																						{
+																							"attribute": "labelFor",
+																							"grouping": "Properties",
+																							"value": "Title",
+																							"script": "",
+																							"translation": []
 																						}
 																					],
 																					"data": []
@@ -1882,6 +1954,13 @@
 																							"value": "sap-icon://decline",
 																							"script": "",
 																							"translation": []
+																						},
+																						{
+																							"attribute": "ariaDescribedBy",
+																							"grouping": "Properties",
+																							"value": "GridListItem",
+																							"script": "",
+																							"translation": []
 																						}
 																					],
 																					"data": []
@@ -1924,7 +2003,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title1",
+																			"value": "GridList",
 																			"script": "",
 																			"translation": []
 																		}
@@ -2053,6 +2132,13 @@
 																							"value": "Item Description",
 																							"script": "",
 																							"translation": []
+																						},
+																						{
+																							"attribute": "labelFor",
+																							"grouping": "Properties",
+																							"value": "Title1",
+																							"script": "",
+																							"translation": []
 																						}
 																					],
 																					"data": []
@@ -2114,6 +2200,13 @@
 																							"value": "sap-icon://accept",
 																							"script": "",
 																							"translation": []
+																						},
+																						{
+																							"attribute": "ariaDescribedBy",
+																							"grouping": "Properties",
+																							"value": "GridListItem1",
+																							"script": "",
+																							"translation": []
 																						}
 																					],
 																					"data": []
@@ -2156,7 +2249,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title2",
+																			"value": "GridList",
 																			"script": "",
 																			"translation": []
 																		}
@@ -2283,6 +2376,13 @@
 																							"attribute": "text",
 																							"grouping": "Properties",
 																							"value": "Item Description",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "labelFor",
+																							"grouping": "Properties",
+																							"value": "Title2",
 																							"script": "",
 																							"translation": []
 																						}
@@ -2430,7 +2530,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title3",
+																			"value": "ListWithCustomListItem",
 																			"script": "",
 																			"translation": []
 																		}
@@ -2557,6 +2657,13 @@
 																									"value": "Item Description",
 																									"script": "",
 																									"translation": []
+																								},
+																								{
+																									"attribute": "labelFor",
+																									"grouping": "Properties",
+																									"value": "Title3",
+																									"script": "",
+																									"translation": []
 																								}
 																							],
 																							"data": []
@@ -2635,7 +2742,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title4",
+																			"value": "ListWithCustomListItem",
 																			"script": "",
 																			"translation": []
 																		}
@@ -2762,6 +2869,13 @@
 																									"value": "Item Description",
 																									"script": "",
 																									"translation": []
+																								},
+																								{
+																									"attribute": "labelFor",
+																									"grouping": "Properties",
+																									"value": "Title4",
+																									"script": "",
+																									"translation": []
 																								}
 																							],
 																							"data": []
@@ -2840,7 +2954,7 @@
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
-																			"value": "Title5",
+																			"value": "ListWithCustomListItem",
 																			"script": "",
 																			"translation": []
 																		}
@@ -2967,6 +3081,13 @@
 																									"value": "Item Description",
 																									"script": "",
 																									"translation": []
+																								},
+																								{
+																									"attribute": "labelFor",
+																									"grouping": "Properties",
+																									"value": "Title5",
+																									"script": "",
+																									"translation": []
 																								}
 																							],
 																							"data": []
@@ -3085,7 +3206,7 @@
 														{
 															"attribute": "accessibleRole",
 															"grouping": "Properties",
-															"value": "Region",
+															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -3127,6 +3248,13 @@
 																	"request": [],
 																	"response": [],
 																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Component Mix",
+																			"script": "",
+																			"translation": []
+																		},
 																		{
 																			"attribute": "position",
 																			"grouping": "Parent",
@@ -3234,6 +3362,13 @@
 																			"value": "Name",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "Input",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -3248,6 +3383,20 @@
 																	"request": [],
 																	"response": [],
 																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Please insert your First Name",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "placeholder",
+																			"grouping": "Properties",
+																			"value": "First Name",
+																			"script": "",
+																			"translation": []
+																		},
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
@@ -3281,6 +3430,13 @@
 																			"value": "Switch",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "Switch",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -3295,6 +3451,13 @@
 																	"request": [],
 																	"response": [],
 																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Switch ON or OFF",
+																			"script": "",
+																			"translation": []
+																		},
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
@@ -3321,6 +3484,13 @@
 																			"value": "Slider",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "Slider",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -3339,6 +3509,13 @@
 																			"attribute": "value",
 																			"grouping": "Properties",
 																			"value": "34",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Use slider to select a value",
 																			"script": "",
 																			"translation": []
 																		},
@@ -3368,6 +3545,13 @@
 																			"value": "RangeSlider",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "RangeSlider",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -3386,6 +3570,13 @@
 																			"attribute": "value",
 																			"grouping": "Properties",
 																			"value": "0",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Use slider to select a range",
 																			"script": "",
 																			"translation": []
 																		},
@@ -3426,7 +3617,14 @@
 																		{
 																			"attribute": "text",
 																			"grouping": "Properties",
-																			"value": "Feed input",
+																			"value": "Mask input",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "MaskInput",
 																			"script": "",
 																			"translation": []
 																		}
@@ -3443,6 +3641,20 @@
 																	"request": [],
 																	"response": [],
 																	"attributes": [
+																		{
+																			"attribute": "tooltip",
+																			"grouping": "Properties",
+																			"value": "Mask input hides the input text",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "placeholder",
+																			"grouping": "Properties",
+																			"value": "No visible characters ",
+																			"script": "",
+																			"translation": []
+																		},
 																		{
 																			"attribute": "ariaLabelledBy",
 																			"grouping": "Properties",
@@ -3489,6 +3701,13 @@
 																			"value": "Multi input",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "MultiInput",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -3514,26 +3733,6 @@
 																			"attribute": "ariaDescribedBy",
 																			"grouping": "Properties",
 																			"value": "LabelMultiInput",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": []
-																},
-																{
-																	"fieldNo": "40392f0a-c12f-4b39-85fd-b501dc9cbf22",
-																	"fieldName": "LabelToggle",
-																	"fieldParent": "f4050323-491b-42cc-d520-89d7189cb196",
-																	"fieldType": "sap.m.Label",
-																	"script": "",
-																	"customComponent": false,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "text",
-																			"grouping": "Properties",
-																			"value": "Toggle",
 																			"script": "",
 																			"translation": []
 																		}
@@ -3571,7 +3770,7 @@
 														{
 															"attribute": "accessibleRole",
 															"grouping": "Properties",
-															"value": "Region",
+															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -3652,6 +3851,13 @@
 																			"response": [],
 																			"attributes": [
 																				{
+																					"attribute": "tooltip",
+																					"grouping": "Properties",
+																					"value": "Address",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
 																					"attribute": "titleStyle",
 																					"grouping": "Properties",
 																					"value": "H6",
@@ -3698,23 +3904,16 @@
 																			"response": [],
 																			"attributes": [
 																				{
+																					"attribute": "tooltip",
+																					"grouping": "Properties",
+																					"value": "Clear form",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
 																					"value": "Clear",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaDescribedBy",
-																					"grouping": "Properties",
-																					"value": "oToolbar4",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaLabelledBy",
-																					"grouping": "Properties",
-																					"value": "oToolbar4",
 																					"script": "",
 																					"translation": []
 																				}
@@ -3764,6 +3963,13 @@
 																					"response": [],
 																					"attributes": [
 																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "Please insert the name of the City that you are currently living in",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
 																							"attribute": "ariaLabelledBy",
 																							"grouping": "Properties",
 																							"value": "oFormElement24",
@@ -3812,6 +4018,13 @@
 																					"response": [],
 																					"attributes": [
 																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "Please insert the Street Name that you are currently living on",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
 																							"attribute": "ariaLabelledBy",
 																							"grouping": "Properties",
 																							"value": "oFormElement25",
@@ -3859,6 +4072,13 @@
 																					"request": [],
 																					"response": [],
 																					"attributes": [
+																						{
+																							"attribute": "tooltip",
+																							"grouping": "Properties",
+																							"value": "Please insert your Zip Code",
+																							"script": "",
+																							"translation": []
+																						},
 																						{
 																							"attribute": "ariaLabelledBy",
 																							"grouping": "Properties",
@@ -3911,7 +4131,7 @@
 														{
 															"attribute": "accessibleRole",
 															"grouping": "Properties",
-															"value": "Region",
+															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -4038,23 +4258,16 @@
 																			"response": [],
 																			"attributes": [
 																				{
+																					"attribute": "tooltip",
+																					"grouping": "Properties",
+																					"value": "Clear form",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
 																					"value": "Clear",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaDescribedBy",
-																					"grouping": "Properties",
-																					"value": "oToolbarGrid",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaLabelledBy",
-																					"grouping": "Properties",
-																					"value": "oToolbarGrid",
 																					"script": "",
 																					"translation": []
 																				}
@@ -4114,13 +4327,6 @@
 																							"attribute": "ariaLabelledBy",
 																							"grouping": "Properties",
 																							"value": "oFormElement27",
-																							"script": "",
-																							"translation": []
-																						},
-																						{
-																							"attribute": "showClearIcon",
-																							"grouping": "Properties",
-																							"value": "true",
 																							"script": "",
 																							"translation": []
 																						},
@@ -4285,7 +4491,7 @@
 														{
 															"attribute": "accessibleRole",
 															"grouping": "Properties",
-															"value": "Region",
+															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -4412,23 +4618,16 @@
 																			"response": [],
 																			"attributes": [
 																				{
+																					"attribute": "tooltip",
+																					"grouping": "Properties",
+																					"value": "Clear form",
+																					"script": "",
+																					"translation": []
+																				},
+																				{
 																					"attribute": "text",
 																					"grouping": "Properties",
 																					"value": "Clear",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaDescribedBy",
-																					"grouping": "Properties",
-																					"value": "oToolbar5",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "ariaLabelledBy",
-																					"grouping": "Properties",
-																					"value": "oToolbar5",
 																					"script": "",
 																					"translation": []
 																				}
@@ -4480,14 +4679,14 @@
 																						{
 																							"attribute": "ariaLabelledBy",
 																							"grouping": "Properties",
-																							"value": "Type",
+																							"value": "oFormElement29",
 																							"script": "",
 																							"translation": []
 																						},
 																						{
 																							"attribute": "ariaDescribedBy",
 																							"grouping": "Properties",
-																							"value": "Type",
+																							"value": "oFormElement29",
 																							"script": "",
 																							"translation": []
 																						}
@@ -4711,7 +4910,7 @@
 														{
 															"attribute": "accessibleRole",
 															"grouping": "Properties",
-															"value": "Region",
+															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -4874,6 +5073,13 @@
 																			"value": "Rate us",
 																			"script": "",
 																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "RatingIndicator",
+																			"script": "",
+																			"translation": []
 																		}
 																	],
 																	"data": []
@@ -4887,7 +5093,22 @@
 																	"customComponent": false,
 																	"request": [],
 																	"response": [],
-																	"attributes": [],
+																	"attributes": [
+																		{
+																			"attribute": "ariaDescribedBy",
+																			"grouping": "Properties",
+																			"value": "LabelRateUs",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "ariaLabelledBy",
+																			"grouping": "Properties",
+																			"value": "LabelRateUs",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
 																	"data": []
 																},
 																{
@@ -4904,6 +5125,13 @@
 																			"attribute": "text",
 																			"grouping": "Properties",
 																			"value": "Suggestions",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "TextArea",
 																			"script": "",
 																			"translation": []
 																		}
@@ -4946,7 +5174,7 @@
 																},
 																{
 																	"fieldNo": "c604f567-a6bd-44ac-8a52-c7f49de3fec5",
-																	"fieldName": "Label1",
+																	"fieldName": "LabelSegmentedButton",
 																	"fieldParent": "0be4e079-952b-4e53-cadc-b60bed02fddb",
 																	"fieldType": "sap.m.Label",
 																	"script": "",
@@ -4958,6 +5186,13 @@
 																			"attribute": "text",
 																			"grouping": "Properties",
 																			"value": "Rate your experience",
+																			"script": "",
+																			"translation": []
+																		},
+																		{
+																			"attribute": "labelFor",
+																			"grouping": "Properties",
+																			"value": "SegmentedButton",
 																			"script": "",
 																			"translation": []
 																		}
@@ -4973,7 +5208,15 @@
 																	"customComponent": false,
 																	"request": [],
 																	"response": [],
-																	"attributes": [],
+																	"attributes": [
+																		{
+																			"attribute": "ariaLabelledBy",
+																			"grouping": "Properties",
+																			"value": "LabelSegmentedButton",
+																			"script": "",
+																			"translation": []
+																		}
+																	],
 																	"data": [
 																		{
 																			"fieldNo": "5f604ded-0476-49e6-a113-4c9818d4d0be",
@@ -5057,18 +5300,6 @@
 																			"data": []
 																		}
 																	]
-																},
-																{
-																	"fieldNo": "db38e858-cade-48d3-f011-6e2aeac8788b",
-																	"fieldName": "Label2",
-																	"fieldParent": "0be4e079-952b-4e53-cadc-b60bed02fddb",
-																	"fieldType": "sap.m.Label",
-																	"script": "",
-																	"customComponent": false,
-																	"request": [],
-																	"response": [],
-																	"attributes": [],
-																	"data": []
 																}
 															]
 														}
@@ -5117,6 +5348,26 @@
 											],
 											"data": [
 												{
+													"fieldNo": "0419e436-61c6-49b3-89e1-5f8c595d813c",
+													"fieldName": "InvisibleText",
+													"fieldParent": "ce6c55ef-8c57-4b2f-d485-fb69eb84b3c8",
+													"fieldType": "sap.ui.core.InvisibleText",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Save progress",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
 													"fieldNo": "8258b056-326d-4796-821c-b09014d89b39",
 													"fieldName": "Button",
 													"fieldParent": "ce6c55ef-8c57-4b2f-d485-fb69eb84b3c8",
@@ -5137,6 +5388,20 @@
 															"attribute": "icon",
 															"grouping": "Properties",
 															"value": "sap-icon://save",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "ariaDescribedBy",
+															"grouping": "Properties",
+															"value": "InvisibleText",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "ariaLabelledBy",
+															"grouping": "Properties",
+															"value": "InvisibleText",
 															"script": "",
 															"translation": []
 														}
@@ -5221,7 +5486,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.3.1116",
+	"ver": "23.4.3.1646",
 	"application": "wcag_demo_app",
 	"title": "",
 	"description": "",
