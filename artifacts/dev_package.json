@@ -1,0 +1,67 @@
+{
+	"id": "35ef7770-e94a-4b38-a2d9-d7230a50d5a0",
+	"createdAt": "2023-03-27T15:42:13.536Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb--WCAG-demo-app"
+	},
+	"name": "neptunesoftware-dxp-abb--WCAG-demo-app",
+	"description": "WCAG Compliance",
+	"ver": "23.4.3.1025",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "59f63ec4-ed85-4d55-9d5a-93431c332239",
+			"application": "wcag_demo_app",
+			"title": "",
+			"description": ""
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [
+		{
+			"id": "508047c2-30d8-4dbc-af86-635fb1de011f",
+			"description": null,
+			"name": "WCAG_Tile"
+		}
+	],
+	"category": [
+		{
+			"id": "a3b78743-aae6-4776-919c-232b0a17216a",
+			"description": null,
+			"name": "WCAG_Tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "f16d92b2-15f5-4d21-84df-d71c3136aa98",
+			"name": "WCAG_Launchpad",
+			"description": "WCAG Demo "
+		}
+	],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"media_library": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

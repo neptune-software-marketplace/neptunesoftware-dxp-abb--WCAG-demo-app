@@ -1,0 +1,31 @@
+.sapMTB.sapMTBStandard {
+  border-bottom: none;
+}
+
+.equipList ul {
+  grid-template-columns: repeat(auto-fit, minmax(13.5rem, 13.5rem));
+  column-gap: 3rem;
+}
+
+.equipListItem {
+  margin: 0.5rem;
+  padding: 2rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+.equipListItem:hover {
+  background: #f7f7f7;
+}
+
+.equipDescription.sapMLabel {
+  text-transform: uppercase;
+  /* letter-spacing: .2rem; */
+}
+
+@media (max-width: 1024px) {
+  .equipList ul {
+    column-gap: 0.5rem;
+  }
+}

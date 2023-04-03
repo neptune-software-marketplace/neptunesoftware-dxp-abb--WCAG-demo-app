@@ -1,0 +1,77 @@
+{
+	"id": "f16d92b2-15f5-4d21-84df-d71c3136aa98",
+	"createdAt": "2023-03-27T15:43:05.572Z",
+	"createdBy": "cezar.strugariu@neptune-software.com",
+	"extUserRoles": [],
+	"extUserDepartments": [],
+	"catOrder": [
+		"a3b78743-aae6-4776-919c-232b0a17216a"
+	],
+	"layout": [
+		{
+			"id": "697e5fc1-7fd6-4a26-f097-feac45d8cb9b",
+			"css": "",
+			"name": "WCAG Layout",
+			"active": true,
+			"style": "<style></style>"
+		}
+	],
+	"config": {
+		"enhancement": "",
+		"enableTopMenu": false,
+		"verticalMenu": false
+	},
+	"enhancement": [],
+	"name": "WCAG_Launchpad",
+	"title": "WCAG",
+	"description": "WCAG Demo ",
+	"startApp": null,
+	"startWebApp": null,
+	"customLogo": null,
+	"launchpadApp": "planet9_launchpad_standard",
+	"hideSidemenu": false,
+	"ui5Version": "1.108",
+	"ui5Url": null,
+	"ui5Theme": "sap_horizon",
+	"header": "",
+	"customTheme": null,
+	"isExternal": null,
+	"emailPattern": null,
+	"loginApp": null,
+	"enableNotifications": false,
+	"firebaseProjectId": null,
+	"firebaseAppId": null,
+	"defaultLoginIDP": null,
+	"publicAccess": false,
+	"css": null,
+	"clientRequestTimeout": 120,
+	"limitWidth": false,
+	"searchBackgroundType": null,
+	"searchBackgroundColor": null,
+	"searchBackgroundShade": null,
+	"usedBackgroundType": null,
+	"usedBackgroundColor": null,
+	"usedBackgroundShade": null,
+	"searchEnableShadeCalc": null,
+	"usedEnableShadeCalc": null,
+	"enableTrace": false,
+	"ver": "23.3.28.1525",
+	"pwa_enable": false,
+	"pwa_customImageIos": null,
+	"pwa_customImageAndroidOld": null,
+	"pwa_customImageAndroidNew": null,
+	"pwa_displayMode": null,
+	"pwa_themeColor": null,
+	"pwa_backgroundColor": null,
+	"passwordResetEmail": null,
+	"activationCodeEmail": null,
+	"package": "35ef7770-e94a-4b38-a2d9-d7230a50d5a0",
+	"cat": [
+		{
+			"id": "a3b78743-aae6-4776-919c-232b0a17216a",
+			"name": "WCAG_Tilegroup",
+			"title": "WCAG Test",
+			"ver": "23.3.28.1526"
+		}
+	]
+}
