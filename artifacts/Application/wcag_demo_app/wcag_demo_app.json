@@ -56,13 +56,6 @@
 									"value": "My Inbox",
 									"script": "",
 									"translation": []
-								},
-								{
-									"attribute": "navButtonPress",
-									"grouping": "Events",
-									"value": "//AppCache.Back();",
-									"script": "//AppCache.Back();",
-									"translation": []
 								}
 							],
 							"data": [
@@ -5325,7 +5318,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Save progress",
+															"value": "This button saves the current progress on the page.",
 															"script": "",
 															"translation": []
 														}
@@ -5343,6 +5336,13 @@
 													"response": [],
 													"attributes": [
 														{
+															"attribute": "tooltip",
+															"grouping": "Properties",
+															"value": "Press to save ",
+															"script": "",
+															"translation": []
+														},
+														{
 															"attribute": "text",
 															"grouping": "Properties",
 															"value": "Save",
@@ -5352,7 +5352,7 @@
 														{
 															"attribute": "icon",
 															"grouping": "Properties",
-															"value": "sap-icon://save",
+															"value": "sap-icon://fa-regular/save",
 															"script": "",
 															"translation": []
 														},
@@ -5406,7 +5406,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.4.943",
+	"ver": "23.4.4.1127",
 	"application": "wcag_demo_app",
 	"title": "",
 	"description": "",
