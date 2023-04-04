@@ -3202,13 +3202,6 @@
 															"value": "Simple Form",
 															"script": "",
 															"translation": []
-														},
-														{
-															"attribute": "accessibleRole",
-															"grouping": "Properties",
-															"value": "Form",
-															"script": "",
-															"translation": []
 														}
 													],
 													"data": [
@@ -3766,13 +3759,6 @@
 															"value": "Form Responsive Layout",
 															"script": "",
 															"translation": []
-														},
-														{
-															"attribute": "accessibleRole",
-															"grouping": "Properties",
-															"value": "Form",
-															"script": "",
-															"translation": []
 														}
 													],
 													"data": [
@@ -4127,13 +4113,6 @@
 															"value": "Form Grid Layout",
 															"script": "",
 															"translation": []
-														},
-														{
-															"attribute": "accessibleRole",
-															"grouping": "Properties",
-															"value": "Form",
-															"script": "",
-															"translation": []
 														}
 													],
 													"data": [
@@ -4485,13 +4464,6 @@
 															"attribute": "headerText",
 															"grouping": "Properties",
 															"value": "Form With Responsive Grid Layout",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "accessibleRole",
-															"grouping": "Properties",
-															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -4904,13 +4876,6 @@
 															"attribute": "headerText",
 															"grouping": "Properties",
 															"value": "Simple Form",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "accessibleRole",
-															"grouping": "Properties",
-															"value": "Form",
 															"script": "",
 															"translation": []
 														}
@@ -5422,51 +5387,6 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "22240d5a-2559-4d87-fd19-a26ad4e6b98b",
-					"fieldName": "MultiModel",
-					"fieldParent": 99999,
-					"fieldType": "neptune.model",
-					"script": "",
-					"customComponent": false,
-					"bindingValue": "SAP Local API (SDK)>getCustomerListResponse",
-					"bindingType": "h",
-					"bindingSource": "API",
-					"bindingParentID": "7fc95d2b-9426-4e61-bdf7-0ba098edfa1a",
-					"bindingPathID": "542e0a50-416e-4111-fff4-789457c22b0c",
-					"request": [],
-					"response": [],
-					"attributes": [],
-					"data": []
-				},
-				{
-					"fieldNo": "7ae01c1e-0b45-4451-fdb2-83116380ec5a",
-					"fieldName": "RestAPI",
-					"fieldParent": 99999,
-					"fieldType": "neptune.restapi",
-					"script": "",
-					"customComponent": false,
-					"restSource": "5d746011-f349-43f4-b700-646789737b74",
-					"restOperation": "939c4dbc-f9bd-48b7-9489-59f373c1efc1",
-					"request": [],
-					"response": [
-						{
-							"status": "200",
-							"dataId": "542e0a50-416e-4111-fff4-789457c22b0c",
-							"modelFieldNo": "22240d5a-2559-4d87-fd19-a26ad4e6b98b"
-						}
-					],
-					"attributes": [
-						{
-							"attribute": "setInitLoad",
-							"grouping": "Model",
-							"value": "online",
-							"script": "",
-							"translation": []
-						}
-					],
-					"data": []
-				},
-				{
 					"fieldNo": "8c4d8778-dd6e-47ef-fe1d-064a47b5ec65",
 					"fieldName": "Init",
 					"fieldParent": 99999,
@@ -5486,7 +5406,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.3.1646",
+	"ver": "23.4.4.943",
 	"application": "wcag_demo_app",
 	"title": "",
 	"description": "",
@@ -5525,12 +5445,6 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
-	"apis": [
-		{
-			"id": "5d746011-f349-43f4-b700-646789737b74",
-			"name": "SAP Local API (SDK)",
-			"ver": "23.3.27.1430"
-		}
-	],
+	"apis": [],
 	"package": "35ef7770-e94a-4b38-a2d9-d7230a50d5a0"
 }
