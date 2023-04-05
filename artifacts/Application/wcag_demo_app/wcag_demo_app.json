@@ -1820,7 +1820,7 @@
 																								{
 																									"attribute": "alt",
 																									"grouping": "Properties",
-																									"value": "No Image Available",
+																									"value": "Image of an ancient Egyptian Queen",
 																									"script": "",
 																									"translation": []
 																								},
@@ -2066,7 +2066,7 @@
 																								{
 																									"attribute": "alt",
 																									"grouping": "Properties",
-																									"value": "No Image Available",
+																									"value": "Image of an ancient Egyptian Queen",
 																									"script": "",
 																									"translation": []
 																								},
@@ -2312,7 +2312,7 @@
 																								{
 																									"attribute": "alt",
 																									"grouping": "Properties",
-																									"value": "No Image Available",
+																									"value": "Image of an ancient Egyptian Queen",
 																									"script": "",
 																									"translation": []
 																								},
@@ -2584,6 +2584,13 @@
 																									"translation": []
 																								},
 																								{
+																									"attribute": "alt",
+																									"grouping": "Properties",
+																									"value": "Image of an ancient Egyptian Queen",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
 																									"attribute": "ariaDescribedBy",
 																									"grouping": "Properties",
 																									"value": "CustomListItem",
@@ -2796,6 +2803,13 @@
 																									"translation": []
 																								},
 																								{
+																									"attribute": "alt",
+																									"grouping": "Properties",
+																									"value": "Image of an ancient Egyptian Queen",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
 																									"attribute": "ariaDescribedBy",
 																									"grouping": "Properties",
 																									"value": "CustomListItem",
@@ -3004,6 +3018,13 @@
 																									"attribute": "src",
 																									"grouping": "Properties",
 																									"value": "/media/root/kleopatra-jpg--55754-.jpg",
+																									"script": "",
+																									"translation": []
+																								},
+																								{
+																									"attribute": "alt",
+																									"grouping": "Properties",
+																									"value": "Image of an ancient Egyptian Queen",
 																									"script": "",
 																									"translation": []
 																								},
@@ -5338,7 +5359,7 @@
 														{
 															"attribute": "tooltip",
 															"grouping": "Properties",
-															"value": "Press to save ",
+															"value": "Press to save",
 															"script": "",
 															"translation": []
 														},
@@ -5406,7 +5427,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.4.4.1127",
+	"ver": "23.4.5.1439",
 	"application": "wcag_demo_app",
 	"title": "",
 	"description": "",

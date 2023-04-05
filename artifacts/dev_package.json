@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-WCAG-demo-app",
 	"description": "WCAG Compliance",
-	"ver": "23.4.4.95",
+	"ver": "23.4.4.1028",
 	"enableCICD": true,
 	"apps": [
 		{

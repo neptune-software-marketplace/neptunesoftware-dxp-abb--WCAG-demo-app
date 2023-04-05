@@ -5,7 +5,8 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"a3b78743-aae6-4776-919c-232b0a17216a"
+		"a3b78743-aae6-4776-919c-232b0a17216a",
+		"0dc80e43-ce06-48b7-be47-b8f47baa81f5"
 	],
 	"layout": [
 		{
@@ -55,7 +56,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.3.28.1525",
+	"ver": "23.4.5.1027",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -72,6 +73,12 @@
 			"name": "WCAG_Tilegroup",
 			"title": "WCAG Test",
 			"ver": "23.3.28.1526"
+		},
+		{
+			"id": "0dc80e43-ce06-48b7-be47-b8f47baa81f5",
+			"name": "WCAG",
+			"title": "My Tiles",
+			"ver": "23.3.22.829"
 		}
 	]
 }
