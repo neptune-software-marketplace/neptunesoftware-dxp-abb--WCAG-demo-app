@@ -26,7 +26,7 @@
 	"backgroundColor": null,
 	"backgroundShade": null,
 	"tileApplication": null,
-	"hideHeaderL": null,
+	"hideHeaderL": false,
 	"hideHeaderM": false,
 	"hideHeaderS": false,
 	"hideTileDesktop": false,
@@ -75,7 +75,7 @@
 	"roleTag": null,
 	"sapICFNode": null,
 	"actionType": "A",
-	"cockpitTile": null,
+	"cockpitTile": false,
 	"package": "35ef7770-e94a-4b38-a2d9-d7230a50d5a0",
 	"roles": []
 }

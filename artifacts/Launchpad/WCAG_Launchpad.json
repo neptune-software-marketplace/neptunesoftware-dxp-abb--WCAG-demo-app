@@ -59,7 +59,7 @@
 	"ui5Theme": "sap_horizon",
 	"header": null,
 	"customTheme": null,
-	"isExternal": null,
+	"isExternal": false,
 	"emailPattern": null,
 	"loginApp": null,
 	"enableNotifications": false,

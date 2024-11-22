@@ -3,11 +3,11 @@
 	"createdAt": "2023-03-27T15:42:13.536Z",
 	"createdBy": "cezar.strugariu@neptune-software.com",
 	"git": {
-		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb--WCAG-demo-app"
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-WCAG-demo-app"
 	},
 	"name": "neptunesoftware-dxp-abb-WCAG-demo-app",
 	"description": "WCAG Compliance",
-	"ver": "23.4.4.1028",
+	"ver": "24.11.22.1042",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -16,7 +16,7 @@
 			"title": "",
 			"description": "",
 			"package": {
-				"id": "35ef7770-e94a-4b38-a2d9-d7230a50d5a0"
+				"id": "35EF7770-E94A-4B38-A2D9-D7230A50D5A0"
 			}
 		}
 	],
