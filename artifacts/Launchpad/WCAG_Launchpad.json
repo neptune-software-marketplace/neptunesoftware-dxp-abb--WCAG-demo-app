@@ -1,31 +1,54 @@
 {
-	"id": "f16d92b2-15f5-4d21-84df-d71c3136aa98",
-	"createdAt": "2023-03-27T15:43:05.572Z",
-	"createdBy": "cezar.strugariu@neptune-software.com",
+	"id": "fc61118a-5a8d-4f29-aa1d-2f9add9197eb",
+	"createdAt": "2024-11-22T10:24:17.000Z",
+	"createdBy": "admin",
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"a3b78743-aae6-4776-919c-232b0a17216a",
-		"0dc80e43-ce06-48b7-be47-b8f47baa81f5"
+		"a3b78743-aae6-4776-919c-232b0a17216a"
 	],
 	"layout": [
 		{
-			"id": "697e5fc1-7fd6-4a26-f097-feac45d8cb9b",
+			"id": "a669b035-7ccf-43ac-da7b-996c394049e4",
 			"css": "",
-			"name": "WCAG Layout",
+			"name": "Layout",
 			"active": true,
+			"pageBackgroundColor": "",
+			"topBackgroundColor": "",
+			"topBorderColor": "",
+			"topActiveColor": "",
+			"navPanelBackgroundColor": "",
+			"navPanelTextColor": "",
+			"navPanelBorderColor": "",
+			"menuBackgroundColor": "",
+			"menuBorderColor": "",
+			"menuTextColor": "",
+			"navBackgroundColor": "",
+			"navBorderColor": "",
+			"navActiveColor": "",
+			"textTitleColor": "",
+			"textSubTitleColor": "",
+			"blockedBackgroundColor": "",
+			"blockedTextColor": "",
+			"blackoutBackgroundColor": "",
+			"blackoutTextColor": "",
+			"mobileTitleColor": "",
+			"mobileSubTitleColor": "",
+			"mobileLabelColor": "",
+			"mobileButtonColor": "",
+			"mobileButtonBackground": "",
+			"mobileStatusbarColor": "",
 			"style": "<style></style>"
 		}
 	],
 	"config": {
-		"enhancement": "",
-		"enableTopMenu": false,
-		"verticalMenu": false
+		"showAccessibilityFocusIndicator": true,
+		"enhancement": ""
 	},
 	"enhancement": [],
 	"name": "WCAG_Launchpad",
 	"title": "WCAG",
-	"description": "WCAG Demo ",
+	"description": null,
 	"startApp": null,
 	"startWebApp": null,
 	"customLogo": null,
@@ -34,7 +57,7 @@
 	"ui5Version": "1.108",
 	"ui5Url": null,
 	"ui5Theme": "sap_horizon",
-	"header": "",
+	"header": null,
 	"customTheme": null,
 	"isExternal": null,
 	"emailPattern": null,
@@ -56,7 +79,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.4.5.1027",
+	"ver": "24.11.22.1024",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -73,12 +96,6 @@
 			"name": "WCAG_Tilegroup",
 			"title": "WCAG Test",
 			"ver": "23.3.28.1526"
-		},
-		{
-			"id": "0dc80e43-ce06-48b7-be47-b8f47baa81f5",
-			"name": "WCAG",
-			"title": "My Tiles",
-			"ver": "23.3.22.829"
 		}
 	]
 }
